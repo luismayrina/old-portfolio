@@ -1,5 +1,6 @@
 # old-portfolio
 Old Portfolio Website (First-Year Student Project)
+
 🚀 A simple portfolio website I developed during my first year for a school activity. This project showcases my early web development skills and includes HTML, CSS, JavaScript, and Bootstrap for styling and layout.
 
 ⚠ Note: The website is not mobile-friendly and is best viewed on desktop.
