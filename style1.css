@@ -1,0 +1,184 @@
+.nav-bar { 
+margin-bottom : px; 
+padding-top : 10px; 
+padding-bottom : 44px; 
+} 
+
+a { 
+font-family:  Rufina-Bold; 
+ } 
+
+
+
+.card-size { 
+width : 315px !important;
+height: 225px !important; 
+ }
+
+.color-darkk { 
+background-color: #1B1919 !important; 
+ } 
+ 
+ .color-lightt { 
+background-color: #fcfcfc !important; 
+ } 
+.dark-hover { 
+color: #0d6efd;
+text-decoration:  none; 
+ } 
+
+ .dark-hover : hover { 
+color:  black;
+  }
+
+.fade {
+  opacity: 0;
+  transition: all .3s ease;
+}
+
+.fade.visible {
+  opacity: 1;
+} 
+
+.font-dosis { 
+font-family: 'Dosis', sans-serif;
+ } 
+
+.font-rufina{ 
+font-family:  Rufina-Bold; 
+ }
+
+.font-rufina1 { 
+font-family: Rufina-Regular;
+ } 
+
+ h1 { 
+font-family: Rufina-Bold;
+  } 
+
+.img{ 
+background-blend-mode: lighten; 
+width:  120% ; 
+height:  550px; 
+object-fit: cover;
+ } 
+
+.imagee {
+    position: relative !important;
+    width: 400px !important;
+}
+
+.image__img {
+    display: block !important;
+    width: 100% !important ;
+}
+
+.image__overlay {
+    position: absolute !important ;
+    top: 0 !important ;
+    left: 0;
+    width: 100% !important ;
+    height: 100% !important;
+    background: rgba(0, 0, 0, 0.6) !important;
+    color: #ffffff !important;
+    font-family: 'Quicksand', sans-serif !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    opacity: 0 !important;
+    transition: opacity 0.25s !important;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px) !important;
+}
+
+
+.image__overlay > * {
+    transform: translateY(20px) !important;
+    transition: transform 0.25s !important;
+}
+
+.image__overlay:hover {
+    opacity: 1 !important;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0) !important;
+}
+
+.image__title {
+    font-size: 2em !important;
+    font-weight: bold !important;
+}
+
+.image__description {
+    font-size: 1.25em !important;
+    margin-top: 0.25em !important;
+}
+
+
+
+.label-light { 
+color:  #ffffff !important;
+}
+ 
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+} 
+
+p{ 
+
+font-family:  Rufina-Bold;
+color: #ffffff !important;
+  }
+
+
+
+ @font-face { 
+font-family : "Rufina-Regular"; 
+src : url("fonts/Rufina-Regular.ttf") format("truetype"); 
+font-family: "Rufina-Bold"; 
+src : url("fonts/Rufina-Bold.ttf") format("truetype");
+   }  
+
+   /* RESPONSIVE CSS
+-------------------------------------------------- */
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}

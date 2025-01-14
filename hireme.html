@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+  <head> 
+    <link rel="icon" href="images/m.png" sizes = "32x32">
+    <meta charset="utf-8">
+    <meta name="author"  content="Luis Mayrina">
+    <meta name="description" content="Luis Mayrina, a Web designer from the Philippines specializing in HTML for design and development." >
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT, JQUERY, WEB DEVELOPMENT, FREELANCE DEVELOPER, WEB DESIGNER PHILIPPINES">
+    <meta http-equiv = "refresh" content = ""> 
+     <title> Portfolio - Hire</title>
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bs/css/bootstrap.css"> 
+    <script src = "bs/js/bootstrap.bundle.js"> </script> 
+    <script src = "bs/js/bootstrap.min.js"> </script>
+    <script src = "bs/js/bootstrap.js"> </script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="style1.css"> 
+    <script src = "script.js"> </script> 
+</head>
+
+   
+
+   <body style = "background-color: #ffffff"> 
+<!-------- NAVIGATION BAR --------->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style = "background-color: #ffffff">
+  <div class="container-fluid container">
+    <a class="navbar-brand" href="index.html" style = "letter-spacing: 5px;">
+    <img src="images/m.png" alt="" width="30" height="40" class="d-inline-block align-text-top"></a> 
+    <a class="navbar-brand mb-0 h1" href="index.html" style = "letter-spacing: 5px;">
+    mayrina</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item" style = "transform: translateX(330px);">
+          <a class="nav-link active" href="index.html">freelance developer</a>
+        </li>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          <a class="nav-link" href="portfolio2.html">portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hireme.html">hire me</a> 
+
+      </span>
+    </div>
+  </div>
+</nav> 
+
+<!-- 1st header  -->
+
+<div class="container-xxl" id = "hiremee" style = "background-color: #f3f7fb; padding: 100px; border: 0px; margin-top: 100px; margin-bottom: 50px; width: 100%; "> 
+  <!-- Custom styles for this template -->
+    <link href="form-validation.css" rel="stylesheet">
+  </head>
+  <body class="bg-dark">
+    
+
+ <div class="row g-5">
+      <div class="col-md-7 col-lg-5 " style = "">
+        <div class="py-5 text-center">
+      <img class="d-block mx-auto " style = "padding-left: 10px;" src="images/m.png" alt="" width="25%" height="30%">
+      <h1 class = "text-black font-dosis">Contact Me</h1>
+      <p class="lead text-black font-dosis">If you have a project in mind or are simply interested in finding out more, get in touch and let’s get things moving. </p> 
+      <a class = "text-decoration-none" href = "mailto:luismayrina@ruizmail.com?cc=mrlomboey@ruizmail.com&bcc=no-idea-po-sir@ruizmail.com&subject=Request For Proposal: &body=Dear Luis Mayrina,"><h5 class = " font-dosis  fs-4 mb-sm-3  ">luismayrina@ruizmail.com</h5></a>
+       </div>
+       
+        
+  
+      </div>
+      
+
+ <!-------- FIRST NAME --------->   
+      <div class="col-md-5 col-lg-5 align-items-center justify-content-center mx-auto">
+        <h4 class="mb-3 text-black text-center font-dosis">Request for Proposal</h4>
+        <form class="needs-validation" onsubmit="return false" novalidate>
+          <div class="row g-2">
+            <div class="col-sm-6 form-floating">
+              
+              <input type="text" class="form-control" id="firstName" placeholder="First" value="" required> 
+              <label class =" font-dosis" for="firstName">First Name</label>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+
+<!-------- LAST NAME --------->
+            <div class="col-sm-6 form-floating">
+             
+              <input type="text" class="form-control " id="lastName" placeholder="Last Name" value="" required> 
+               <label class =" font-dosis" for="lastName" > Last</label>
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+<!-------- EMAIL --------->
+            <div class="col-12 form-floating">
+             
+              <input type="email" class="form-control" id="email" placeholder="Email" required> 
+               <label class =" font-dosis" for="email">Email</label>
+              <div class="invalid-feedback"> 
+                
+                Please enter a valid email address.
+              </div>
+            </div> 
+<!-------- TYPE OF WEBSITE --------->
+            <div class="col-12 form-floating">
+              
+              <select class="form-select" id="webtype" required>  
+                <label class =" font-dosis" for="webtype" > Type of Website</label>
+                 <option class = " font-dosis text-muted" value = "">Select type of website</option>
+                <option>Portfolio Website</option>
+                
+                <option>Company Website</option> 
+                <option>Business Website</option> 
+                <option>Online Store </option>  
+                <option>Hotel or Restaurant Website</option>  
+                <option>Other</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid type of website.
+              </div>
+            </div> 
+<!-------- DESCRIPTION --------->
+             <div class="col-12 form-floating">
+              
+              <textarea class="form-control" id="description" rows = "4" placeholder="Website Description" required></textarea> 
+               <label class =" font-dosis" for="description">Website Description</label>
+              <div class="invalid-feedback">
+                Please enter a valid description. 
+              </div>
+            </div> 
+
+
+<!-------- DATE --------->   
+            <div class="col-4"> 
+  <label for="description" class="font-dosis form-label text-black">Time of Launch</label>
+  <input type="date" aria-label="Date" placeholder = "mm" maxlength = "2" class=" font-dosis form-control" required> 
+  <div class="invalid-feedback">
+                Please enter a valid date.  
+
+</div> 
+</div>
+
+            
+
+          <hr class="my-4">
+
+          <button type="submit" id = "Send-footer" class="font-dosis w-100 btn btn-dark btn-lg offset-3"  >Submit</button> 
+
+
+        </form>
+      </div>
+    </div> 
+
+     
+
+  </main>
+
+
+</div>
+</div> 
+
+<script> 
+ 
+</script>
+
+
+<!-------- Modal --------->
+<div class="modal" id="modal-container" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       Successfully Submitted! 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Done</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!------- FOOTER ------->
+ <div class="container-xxl flex" style = "background-color: #fcfcfc">
+  <footer class="py-5 ">
+    <div class="row">
+      <div class="col-2 ps-sm-5"> 
+<!------- EXPLORE ------->        
+        <h5 class = "text-dark fs-4 mb-sm-3">Explore</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 "><a href="index.html" class="nav-link p-0 link-dark font-dosis fs-7" >Home</a></li>
+          <li class="nav-item mb-2"><a href="portfolio2.html" class="nav-link p-0 link-dark font-dosis fs-7">Portfolio</a></li>
+          <li class="nav-item mb-2"><a href="#hiremee" class="nav-link p-0 link-dark font-dosis fs-7">Hire</a></li>
+          <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 link-dark font-dosis fs-7">About</a></li>
+        </ul>
+      </div>
+<!------- CONNECT ------->
+      <div class="col-2">
+        <h5 class = "text-dark fs-4 mb-sm-3">Connect</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 fs-7"><a href="#" class="nav-link p-0 link-dark font-dosis" >Contact Us</a></li> 
+          <br>
+          <li class="nav-item mb-2"><a href="https://www.google.com/maps/place/Vineyard+Subdivision,+Dasmari%C3%B1as,+Cavite/@14.3074181,120.953101,16z/data=!3m1!4b1!4m5!3m4!1s0x3397d5bc40b447e7:0xd6dc1bb66341f898!8m2!3d14.3077438!4d120.9575153" class="nav-link p-0 link-light text-muted font-dosis fs-7">Horizon 0262 Vineyard <br> Dasmarinas City, 4114, Philippines. </a></li>
+         
+        </ul>
+      </div>
+<!------- SOCIALS ------->
+      <div class="col-2">
+        <h5 class = "text-dark fs-4 mb-sm-3">Socials</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="https://www.facebook.com/mayrinaaaaaaaaaaaaaaaaaa/" target="_blank" class="nav-link p-0 link-dark font-dosis fs-7">Facebook</a></li>
+          <li class="nav-item mb-2"><a href="https://www.instagram.com/saintluwis/" target="_blank" class="nav-link p-0 link-dark font-dosis fs-7">Instagram</a></li>
+          <li class="nav-item mb-2"><a href="https://twitter.com/luismayrina" target="_blank" class="nav-link p-0 link-dark font-dosis fs-7">Twitter</a></li>
+          <li class="nav-item mb-2"><a href="https://www.linkedin.com/in/luis-mayrina-7777a5227/" target="_blank" class="nav-link p-0 link-dark font-dosis fs-7">LinkedIn</a></li>
+          <li class="nav-item mb-2"><a href="https://www.behance.net/greed1" target="_blank" class="nav-link p-0 link-dark font-dosis fs-7">Behance</a></li>
+        </ul>
+      </div>
+
+<!------- NEWSLETTER -------> 
+      <div class="col-5 offset-1">
+        <form class="needs-validation" onsubmit="return false" novalidate>
+          <h5 class = "text-dark fs-4 font-dosis">Subscribe to our newsletter</h5>
+          <p class = "text-dark font-dosis fs-7">Monthly digest of whats new and exciting from us.</p>
+          <input class = "mb-sm-3 form-check-input" type="checkbox" value="Yes" id="flexCheckDefault">
+  <label class = "label-dark font-dosis " style = "font-size: 80%"for="flexCheckDefault">
+    I agree to receive daily newsletter regarding this website. 
+  </label>
+          <div class="d-flex w-100 gap-2"> 
+
+            <label for="newsletter1" class="visually-hidden col-12">Email address</label>
+            <input type="email" class="form-control col-12" id="newsletter1" placeholder="Email" required>
+             
+            <div class="d-flex w-100 gap-2">
+              <button class="btn btn-dark col-12 font" name = "subnewtopic" id = "subnewtopic" type="submit" disabled="disabled">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+<!-------- DETERMINES IF THE CHECKBOX HAS BEEN CHECKED --------->
+<script>  
+  required = function(fields) {
+            var valid = true;
+            fields.each(function () { // iterate all
+                var $this = $(this);
+                if (($this.is(':checkbox') && !$this.is(":checked")) || // checkbox
+                    
+                    ($this.is(':radio') && !$('input[name='+ $this.attr("name") +']:checked').length)) { // radio
+                    valid = false;
+                }
+            });
+            return valid;
+        }
+
+        validateRealTime = function () {
+            var fields = $("form :input:not(:hidden)"); // select required
+            fields.on('keyup change keypress blur', function () {
+                if (required(fields)) {
+                    {subnewtopic.disabled = false} // action if all valid
+                } else {
+                    {subnewtopic.disabled = true} // action if not valid
+                }
+            });
+        }
+
+        validateRealTime();
+  </script>
+
+    <div class="d-flex justify-content-between py-4 my-4 border-top">
+      <p class = "text-dark font-dosis fs-7">&copy; 2021 Luis Mayrina. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+<script src = "bs/js/script.js"> </script>
+<script src="form-validation.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+
+  <head> 
+     <link rel="icon" href="images/m.png">
+   <meta charset="utf-8">
+
+    <meta name="author"  content="Luis Mayrina">
+    <meta name="description" content="Luis Mayrina, a Web designer from the Philippines specializing in HTML for design and development." >
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT, JQUERY, WEB DEVELOPMENT, FREELANCE DEVELOPER, WEB DESIGNER PHILIPPINES, LUIS MAYRINA WEBSITE DEVELOPMENT">
+    <meta http-equiv = "refresh" content = ""> 
+     <title> Portfolio - Designs</title>
+    
+
+    
+    
+    <link rel="stylesheet" href="bs/css/bootstrap.css"> 
+    <script src = "bs/js/bootstrap.bundle.js"> </script> 
+    <script src = "bs/js/bootstrap.min.js"> </script>
+    <script src = "bs/js/bootstrap.js"> </script>  
+    <script src = "bs/js/script2.js"> </script>
+    <link rel="stylesheet" href="style1.css"> <!-------- HANDLES THE BLURRED THUMBNAIL ---------><link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&display=swap" rel="stylesheet">
+    <!-------- HANDLES THE MODAL ANIMATION ---------> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+</head>
+<!-------- FADE-IN/FADE-OUT SCRIPT ---------> 
+   <script>
+       $(window).on("load",function() {
+  $(window).scroll(function() {
+    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $(".fade").each(function() {
+      /* Check the location of each desired element */
+      var objectBottom = $(this).offset().top + $(this).outerHeight();
+      
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        if ($(this).css("opacity")==0) {$(this).fadeTo(100,1);}
+      } else { //object goes out of view (scrolling up)
+        if ($(this).css("opacity")==1) {$(this).fadeTo(100,0);}
+      }
+    });
+  }).scroll(); //invoke scroll-handler on page-load
+});
+      
+    </script>
+
+   <body class = "bg-dark"> 
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style = "background-color: #ffffff">
+  <div class="container-fluid container ">
+    <a class="navbar-brand" href="index.html" style = "letter-spacing: 5px;">
+    <img src="images/m.png" alt="" width="30" height="40" class="d-inline-block align-text-top"></a> 
+    <a class="navbar-brand mb-0 h1" href="index.html" style = "letter-spacing: 5px;">
+    mayrina</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item" style = "transform: translateX(330px);">
+          <a class="nav-link active" href="index.html">freelance developer</a>
+        </li>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          <a class="nav-link" href="portfolio2.html">portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hireme.html">hire me</a>
+      </span>
+    </div>
+  </div>
+</nav> 
+
+<!-- 1st header  -->
+
+<div class="container-xxl flex" id = "portfolioo" style = "background-color: #272525; padding: 0px; border: 0px; margin-top: 73px;"> 
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/header2.jpg" class="d-block img " style = "opacity: 0.6; height : 200%; " alt="..."> 
+      <div class = "carousel-caption " style = "right: 45%; bottom: 70%; left: 34.8%;"> 
+        <p class = "font-rufina1 row align-items-center" style = "font-size: 550%;"> PORTFOLIO </p>
+      </div>
+      <div class = "carousel-caption " style = "right: 574px; bottom: 70%; left: 34%;"> 
+        <p class = "font-rufina1 row align-items-center" style = "font-size: 550%;"> PORTFOLIO </p> 
+      </div> 
+       <div class = "carousel-caption " style = "bottom: 50%;  "> 
+        <p class = "font-rufina1 " style = "font-size: 170%;"> These are the collection of the previous projects (Prototypes, Digital Products, and Systems) that I have passionately worked on.   </p> 
+        
+      </div> 
+       <div class = "carousel-caption justify-content-center align-items-center" style = "bottom: 10%;  "> 
+       <a href ="#designs"> <img src="images/down.png" id = "designs" class=" img "  style = "opacity: 0.6; width : 5%; height: 5%; color: #000000;" alt="..."></a>
+     </div>
+
+    </div>    
+    </div> 
+
+
+     
+  </div> 
+  
+</div> 
+</div>
+
+
+<div class= "container-xxl flex" style = "background-color: #f3f7fb; padding-left: 150px;">
+  <div  class="row align-items-start px-sm-5">
+    <div class="col">
+     <p> </p>
+    </div>
+    <div class="col">
+      <p></p>
+    </div>
+    <div class="col">
+     <p> </p>
+    </div>
+  </div>
+  <div class="row align-items-center px-sm-5">
+    <div class="col-3">
+     <p> </p>
+    </div>
+    <div class="col-5">
+     <p class =" text-dark text-center" style = "font-size: 250%; padding-right: 60px;"> designs</p>
+    </div>
+    <div class="col">
+      <p> </p>
+    </div>
+  </div>
+  
+
+<main id = "designs">
+
+<!-- 1st design  --> 
+
+  <div class="album py-3" style = "">
+    <div class="container ">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4" style = "padding-right : 15%;">
+        <div class="col fade"  >
+          <div class="card shadow-sm bg-light">
+            <img src = "images/panda-gin.png" class="bd-placeholder-img " width="" height=""> 
+<div class="image__overlay image__overlay--blur">
+        <a target="_blank" href="https://www.panda-gin.com/" class = "text-decoration-none link-dark"><div class="image__title font-rufina text-decoration-none ">Panda Gin</div></a> 
+      </div>
+    </div> 
+    <div class="card shadow-sm ">
+            <div class="card-body bg-light">
+              <p class="card-text text-dark font-dosis">Panda is a premium gin that is distilled with crystalline reflections and manufactured in Belgium, 100% organic and the first one worldwide to be litchi-based.</p>
+              <div class="d-flex justify-content-sm-end align-items-center">
+                <small class="text-muted ">Nov 21, 2021</small>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+<!-- 2nd  design  --> 
+
+        <div class="col fade">
+          <div class="card shadow-sm bg-light">
+            <img src = "images/website2.jpg" class="bd-placeholder-img" >
+<div class="image__overlay image__overlay--blur">
+        <a target="_blank" href="https://dashgo.com/" class = "text-decoration-none link-light"><div class="image__title font-rufina text-decoration-none">DashGo</div></a> 
+      </div>
+    </div> 
+    <div class="card shadow-sm bg-light">
+            <div class="card-body">
+              <p class="card-text text-dark font-dosis">DashGo is a sister company of CDBaby, a distribution company that manages distribution and marketing services for artists and labels.</p>
+              <div class="d-flex justify-content-sm-end align-items-center">
+                <small class="text-muted">Nov 12, 2021</small>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+<!-- 3rd design  --> 
+
+        <div class="col fade">
+          <div class="card shadow-sm bg-light">
+            <img src = "images/website3.jpg" class="bd-placeholder-img" width="" height="" > 
+            <div class="image__overlay image__overlay--blur">
+        <a href="https://riotxarcane.riotgames.com/en-sg/" target="_blank" class = "text-decoration-none link-light"><div class="image__title font-rufina text-decoration-none">Riot X Arcane </div></a> 
+      </div>
+</div> 
+            <div class="card shadow-sm bg-light">
+            <div class="card-body">
+              <p class="card-text text-dark font-dosis"> Riot x Arcane celebrates the launch of Riot’s first animated series Arcane by bringing together all of its products into one WebGL narrative experience.</p>
+              <div class="d-flex justify-content-sm-end align-items-center">
+                <small class="text-muted">Nov 4, 2021</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+<!-- 4th design  --> 
+
+        <div class="col fade">
+          <div class="card shadow-sm bg-light">
+            <img src = "images/website4.jpg" class="bd-placeholder-img" width="" height="">
+<div class="image__overlay image__overlay--blur">
+        <a href="https://www.ultimacollection.com/en/collections/ultima-gstaad" target="_blank" class = "text-decoration-none link-light"><div class="image__title font-rufina text-decoration-none">Ultima Gstaad</div></a> 
+      </div> 
+    </div>
+      <div class="card shadow-sm bg-light"> 
+            <div class="card-body">
+              <p class="card-text text-dark font-dosis">Ultima’s multi-award-winning hotel is known for its 5-star superior service and outstanding wellness and ski facilities in Switzerland. </p>
+              <div class="d-flex justify-content-sm-end align-items-center">
+                <small class="text-muted">Oct 23, 2021</small>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+<!-- 5th design  --> 
+
+        <div class="col fade">
+          <div class="card shadow-sm bg-light">
+
+           <img src = "images/website5.jpg" class="bd-placeholder-img image__img" width="" height="">
+    <div class="image__overlay image__overlay--blur">
+        <a href="https://vogue-talents-sept2021.monogrid.io/it//" target="_blank" class = "text-decoration-none link-light"><div class="image__title font-rufina text-decoration-none">Vogue Talents</div></a>
+        
+    </div> 
+  </div>
+  <div class="card shadow-sm bg-light">
+            <div class="card-body">
+              <p class="card-text text-dark font-dosis">For Vogue Talents, we've created a digital platform where the user can discover photogrammetry dresses and immersive contents.</p>
+              <div class="d-flex justify-content-sm-end align-items-center">
+                
+                <small class="text-muted">Oct 15, 2021</small>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+<!-- 6th design  --> 
+
+        <div class="col fade">
+          <div class="card shadow-sm bg-light">
+            <img src = "images/website6.jpg" class="bd-placeholder-img" width="" height="">
+<div class="image__overlay image__overlay--blur">
+        <a href="https://monrie.ru/" class = "text-decoration-none link-light" target="_blank"><div class="image__title font-rufina text-decoration-none">Monrie</div></a> 
+      </div> 
+    </div> 
+    <div class="card shadow-sm bg-light">
+            <div class="card-body">
+              <p class="card-text text-dark font-dosis">Monrie Women's underwear e-shop. Clean and clear layouts. Swiss typography, luxurious & stylish photos. Great usage of white-space. </p>
+              <div class="d-flex justify-content-sm-end align-items-center">
+                <small class="text-muted">Sept 2, 2021</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!-- 7th design  --> 
+
+        <div class="col fade py-sm-5">
+          <div class="card shadow-sm bg-light">
+            <img src = "images/website7.jpg" class="bd-placeholder-img" width="" height="">
+<div class="image__overlay image__overlay--blur">
+        <a target="_blank" href="https://www.etq-amsterdam.com/" class = "text-decoration-none link-light"><div class="image__title font-rufina text-decoration-none">ETQ</div></a> 
+      </div> 
+    </div> 
+    <div class="card shadow-sm bg-light">
+            <div class="card-body">
+              <p class="card-text text-dark font-dosis">ETQ Amsterdam creates a modern minimalist perspective on footwear. Shop the latest collection at the official online store. </p>
+              <div class="d-flex justify-content-sm-end align-items-center">
+                <small class="text-muted">July 17, 2021</small>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+<!-- 8th design  --> 
+
+        <div class="col fade py-sm-5 ">
+          <div class="card shadow-sm bg-light">
+            <img src = "images/website8.jpg" class="bd-placeholder-img" width="" height="">
+<div class="image__overlay image__overlay--blur">
+        <a target="_blank" href="https://ombiastudio.com/" class = "text-decoration-none link-light"><div class="image__title font-rufina text-decoration-none">ŌMBIA STUDIO</div></a> 
+      </div> 
+    </div> 
+    <div class="card shadow-sm bg-light">
+            <div class="card-body">
+              <p class="card-text text-dark font-dosis">ŌMBIA STUDIO is an e-commerce website that features a minimal and clean design for a studio based in San Francisco. </p>
+              <div class="d-flex justify-content-sm-end align-items-center">
+                <small class="text-muted">July 9, 2021</small>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+<!-- 9th design  --> 
+
+        <div class=" py-sm-5 col fade">
+          <div class="card shadow-sm bg-light">
+            <img src = "images/website9.png" class="bd-placeholder-img" width="" height="">
+<div class="image__overlay image__overlay--blur">
+        <a href="https://tristayard.com/" target="_blank" class = "text-decoration-none link-light"><div class="image__title font-rufina text-decoration-none">Trista Yard</div></a> 
+      </div> 
+    </div> 
+    <div class="card shadow-sm bg-light">
+            <div class="card-body">
+              <p class="card-text text-dark font-dosis">Trista Yard is a collection of the various directed movies of the New York City based designer and creative director.</p>
+              <div class="d-flex justify-content-sm-end align-items-center">
+                <small class="text-muted">2021</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main> 
+<hr class="featurette-divider"> 
+
+</div>
+
+
+<!-------- Modal --------->
+<div class="modal" id="modal-container" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       Successfully Submitted! 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Done</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!------- FOOTER ------->
+ <div class="container-xxl flex" style = "background-color: #fcfcfc">
+  <footer class="py-5 ">
+    <div class="row">
+      <div class="col-2 ps-sm-5"> 
+<!------- EXPLORE ------->        
+        <h5 class = "text-dark fs-4 mb-sm-3">Explore</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 "><a href="index.html" class="nav-link p-0 link-dark font-dosis fs-7" >Home</a></li>
+          <li class="nav-item mb-2"><a href="#portfolioo" class="nav-link p-0 link-dark font-dosis fs-7">Portfolio</a></li>
+          <li class="nav-item mb-2"><a href="hireme.html" class="nav-link p-0 link-dark font-dosis fs-7">Hire</a></li>
+          <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 link-dark font-dosis fs-7">About</a></li>
+        </ul>
+      </div>
+<!------- CONNECT ------->
+      <div class="col-2">
+        <h5 class = "text-dark fs-4 mb-sm-3">Connect</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 fs-7"><a href="#" class="nav-link p-0 link-dark font-dosis" >Contact Us</a></li> 
+          <br>
+          <li class="nav-item mb-2"><a href="https://www.google.com/maps/place/Vineyard+Subdivision,+Dasmari%C3%B1as,+Cavite/@14.3074181,120.953101,16z/data=!3m1!4b1!4m5!3m4!1s0x3397d5bc40b447e7:0xd6dc1bb66341f898!8m2!3d14.3077438!4d120.9575153" class="nav-link p-0 link-light text-muted font-dosis fs-7">Horizon 0262 Vineyard <br> Dasmarinas City, 4114, Philippines. </a></li>
+         
+        </ul>
+      </div>
+<!------- SOCIALS ------->
+      <div class="col-2">
+        <h5 class = "text-dark fs-4 mb-sm-3">Socials</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="https://www.facebook.com/mayrinaaaaaaaaaaaaaaaaaa/" target="_blank" class="nav-link p-0 link-dark font-dosis fs-7">Facebook</a></li>
+          <li class="nav-item mb-2"><a href="https://www.instagram.com/saintluwis/" target="_blank" class="nav-link p-0 link-dark font-dosis fs-7">Instagram</a></li>
+          <li class="nav-item mb-2"><a href="https://twitter.com/luismayrina" target="_blank" class="nav-link p-0 link-dark font-dosis fs-7">Twitter</a></li>
+          <li class="nav-item mb-2"><a href="https://www.linkedin.com/in/luis-mayrina-7777a5227/" target="_blank" class="nav-link p-0 link-dark font-dosis fs-7">LinkedIn</a></li>
+          <li class="nav-item mb-2"><a href="https://www.behance.net/greed1" target="_blank" class="nav-link p-0 link-dark font-dosis fs-7">Behance</a></li>
+        </ul>
+      </div>
+
+<!------- NEWSLETTER -------> 
+      <div class="col-5 offset-1">
+        <form class="needs-validation" onsubmit="return false" novalidate>
+          <h5 class = "text-dark fs-4 font-dosis">Subscribe to our newsletter</h5>
+          <p class = "text-dark font-dosis fs-7">Monthly digest of whats new and exciting from us.</p>
+          <input class = "mb-sm-3 form-check-input" type="checkbox" value="Yes" id="flexCheckDefault">
+  <label class = "label-dark font-dosis " style = "font-size: 80%"for="flexCheckDefault">
+    I agree to receive daily newsletter regarding this website. 
+  </label>
+          <div class="d-flex w-100 gap-2"> 
+
+            <label for="newsletter1" class="visually-hidden col-12">Email address</label>
+            <input type="email" class="form-control col-12" id="newsletter1" placeholder="Email" required>
+             
+            <div class="d-flex w-100 gap-2">
+              <button class="btn btn-dark col-12 font" name = "subnewtopic" id = "subnewtopic" type="submit" disabled="disabled">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+<!-------- DETERMINES IF THE CHECKBOX HAS BEEN CHECKED --------->
+<script>  
+  required = function(fields) {
+            var valid = true;
+            fields.each(function () { // iterate all
+                var $this = $(this);
+                if (($this.is(':checkbox') && !$this.is(":checked")) || // checkbox
+                    
+                    ($this.is(':radio') && !$('input[name='+ $this.attr("name") +']:checked').length)) { // radio
+                    valid = false;
+                }
+            });
+            return valid;
+        }
+
+        validateRealTime = function () {
+            var fields = $("form :input:not(:hidden)"); // select required
+            fields.on('keyup change keypress blur', function () {
+                if (required(fields)) {
+                    {subnewtopic.disabled = false} // action if all valid
+                } else {
+                    {subnewtopic.disabled = true} // action if not valid
+                }
+            });
+        }
+
+        validateRealTime();
+  </script>
+
+    <div class="d-flex justify-content-between py-4 my-4 border-top">
+      <p class = "text-dark font-dosis fs-7">&copy; 2021 Luis Mayrina. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+</div> 
+<script src = "bs/js/script.js"> </script> <!---- MODAL ----> 
+<script src="form-validation.js"></script>
+  </body>
+</html>
